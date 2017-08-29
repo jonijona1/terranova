@@ -43,11 +43,11 @@
     <plugin name="cordova-plugin-vibration" spec="0.3.13" source="npm"/>
     
     <!-- <plugin name="firebase" spec="firebase" source="npm"/> -->
-    <plugin name="angular" spec="angular" source="npm"/>
+    <!-- <plugin name="angular" spec="angular" source="npm"/>
     <plugin name="angular-route" spec="angular-route" source="npm"/>
     <plugin name="mobile-angular-ui" spec="mobile-angular-ui" source="npm"/>
     <plugin name="angularfire" spec="angularfire" source="npm"/>
-
+ -->
 
 
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />

@@ -28,27 +28,13 @@
           
           <script src="/node_modules/firebase/firebase.js"></script>
           <script src="/node_modules/angularfire/dist/angularfire.min.js"></script> 
-
-
-          <link rel="stylesheet" href="mobile-angular-ui-base.min.css" />
-          <!-- Only required for desktop -->
-          <link rel="stylesheet" href="mobile-angular-ui-desktop.min.css" />
-          <link rel="stylesheet" href="ng-table.min.css" />
-
-          <script src="angular.min.js"></script>
-          <script src="angular-route.min.js"></script>
-          <script src="mobile-angular-ui.min.js"></script>
-          <script src="mobile-angular-ui.gestures.min.js"></script>
-          <script src="ng-table.min.js"></script>
-          <script src="firebase.js"></script>
-          <script src="angularfire.min.js"></script> 
           <!-- <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script> -->
           <script type="text/javascript" src="js/app.js"></script>
           <script>
-          // var angular = require('angular');
-          // var angularfire = require('angularfire');
-          // var firebase = require('firebase');
-          // Initialize the Firebase SDK
+          var angular = require('angular');
+          var ngRoute = require('angular-route');
+          var firebase = require('angularfire');
+                    // Initialize the Firebase SDK
           var config = {
             apiKey: "AIzaSyDJ1c-TgnD1OEh2Hqe9bZ-EBdjaPvY_Zwg",
             authDomain: "terranova-d6cd4.firebaseapp.com",
@@ -90,7 +76,7 @@
     </div><!-- ~ .app -->
 
     <div ui-yield-to="modals"></div>
-    <script type="text/javascript" src="cordova.js"></script>
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
             app.initialize();
