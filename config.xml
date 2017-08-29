@@ -42,11 +42,11 @@
     <plugin name="cordova-plugin-splashscreen" spec="1.0.0" source="npm"/>
     <plugin name="cordova-plugin-vibration" spec="0.3.13" source="npm"/>
     
-    <plugin name="firebase" spec="/node_modules/firebase"/>
-    <plugin name="angular" spec="/node_modules/angular"/>
-    <plugin name="angular-route" spec="/node_modules/angular-route"/>
-    <plugin name="mobile-angular-ui" spec="/node_modules/dist/mobile-angular-ui"/>
-    <plugin name="angularfire" spec="/node_modules/dist/angularfire"/>
+    <plugin name="firebase" spec="firebase" source="npm"/>
+    <plugin name="angular" spec="angular" source="npm"/>
+    <plugin name="angular-route" spec="angular-route" source="npm"/>
+    <plugin name="mobile-angular-ui" spec="mobile-angular-ui" source="npm"/>
+    <plugin name="angularfire" spec="angularfire" source="npm"/>
 
 
 
