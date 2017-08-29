@@ -25,7 +25,7 @@
     <preference name="android-installLocation" value="auto" />
     <plugin name="cordova-plugin-battery-status" spec="0.2.12" source="npm" />
     <plugin name="cordova-plugin-camera" spec="0.3.6" source="npm" />
-    <plugin name="cordova-plugin-media-capture" spec="0.3.6" source="npm" />
+<!--    <plugin name="cordova-plugin-media-capture" spec="0.3.6" source="npm" />-->
     <plugin name="cordova-plugin-console" spec="0.2.13" source="npm" />
     <plugin name="cordova-plugin-contacts" spec="0.2.16" source="npm"/>
     <plugin name="cordova-plugin-device" spec="0.3.0" source="npm"/>
