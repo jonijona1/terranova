@@ -41,10 +41,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="firebase" source="npm" version="4.3.0" />
+    <!-- <gap:plugin name="firebase" source="npm" version="4.3.0" />
     <gap:plugin name="angular" source="npm" version="1.6.6" />
     <gap:plugin name="mobile-angular-ui" source="npm" version="1.3.4" />
-
+ -->
     <!-- <link rel="shortcut icon" href="" type="image/x-icon" /> -->
 
     <!-- <icon src="/assets/img/icon.png" /> -->
