@@ -1,0 +1,15 @@
+<table ng-table="vm.tableParams" class="table" show-filter="true">
+    <tr ng-repeat="patient in patients">
+        <td title="'Date'" filter="{ Date: 'number'}" sortable="'Date'">
+            {{patient.Date}}</td>
+        <td title="'Naam'" filter="{ Naam: 'text'}" sortable="'Naam'">
+            {{patient.Naam}}</td>
+        <td title="'Voornaam'" filter="{ Voornaam: 'text'}" sortable="'Voornaam'">
+            {{patient.Voornaam}}
+        </td>
+        <td title="'Kamer'" filter="{ Kamer: 'number'}" sortable="'Kamer'">
+            {{patient.room}}
+        </td>
+
+    </tr>
+</table>

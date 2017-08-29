@@ -1,0 +1,35 @@
+<section class="section container-fluid">
+	<div ui-content-for="title">
+		<span>Dagcentrum</span>
+	</div>
+
+	<div class="scrollable">
+		<div class="scrollable-content">
+			<div class="section">
+				<div class="panel-group" 
+
+				ui-state='myAccordion' 
+				ui-default='1'>
+
+				<div class="panel panel-default" ng-repeat="floor in floors">
+					<div class="panel-heading">
+
+						<h4 class="panel-title" >
+							floor {{ floor.$id }}
+						</h4>
+					</div>
+
+					<div>
+						<div class="panel-body">
+							<div class="btn-group">
+								<a ng-repeat="room in floor.rooms" href="" class="btn btn-default" ui-turn-on="button1" ui-shared-state="button1" ui-class="{'active': button1}" ui-exclusion-group="myButtons">{{room}} </a>
+							</div>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
